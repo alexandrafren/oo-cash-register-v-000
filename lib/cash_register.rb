@@ -5,8 +5,8 @@ class CashRegister
     @total = 0
   end
 
-  def add_item(name, price)
-    self.total = total + price
+  def add_item(name, price, quantity = 1)
+    self.total = total + (price * quantity)
   end
 
 end
