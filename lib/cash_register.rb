@@ -5,4 +5,6 @@ class CashRegister
     @total = 0
   end
 
+  def add_item(name, price)
+    self.total + price
 end
