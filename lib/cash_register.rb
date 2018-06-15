@@ -11,7 +11,7 @@ class CashRegister
   def add_item(name, price, quantity = 1)
     @last_transaction = price * quantity
     self.total = total + last_transaction
-    until quantity = counter
+    until quantity == counter
       counter = 0
       @items << "#{name}"
       counter += 1
