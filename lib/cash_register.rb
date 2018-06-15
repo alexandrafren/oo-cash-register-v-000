@@ -21,6 +21,7 @@ class CashRegister
 end
 
   def items
+    return self.name
   end
 
 end
