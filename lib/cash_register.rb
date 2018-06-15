@@ -25,7 +25,7 @@ end
   end
 
   def void_last_transaction
-    return self.total - last_transaction
+    return self.total = total - last_transaction
   end
 
 end
